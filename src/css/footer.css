@@ -24,6 +24,12 @@
 
 .footer__attribution {
   font-size: var(--text-sm);
+  color: #666666;
+}
+
+.footer__attribution a {
+  text-decoration: none;
+  color: var(--color-footer);
 }
 
 .footer ul {

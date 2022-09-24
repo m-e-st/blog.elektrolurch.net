@@ -1,26 +1,31 @@
 {
-  "name": "Eleventy Duo",
-  "description": "Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.",
-  "url": "https://eleventyduo.netlify.app",
+  "name": "Elektrolurch Blog",
+  "description": "Elektrolurch's personal blogs.",
+  "url": "https://blog.elektrolurch.net",
   "author": {
-    "name": "Author Name",
+    "name": "John Doe",
     "email": "author@site.com",
     "twitterHandle": "author_handle"
   },
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
     {
+      "text": "Home",
+      "url": "https://www.elektrolurch.net",
+      "external": true
+    },
+    {
       "text": "Blog",
       "url": "/blog",
       "external": false
     },
     {
-      "text": "About",
+      "text": "Über",
       "url": "/about",
       "external": false
     }
   ],
-  "socialLinks": [
+  "disabled-socialLinks": [
     {
       "text": "Instagram",
       "url": "https://instagram.com/",
@@ -38,6 +43,11 @@
     }
   ],
   "footerLinks": [
+    {
+      "text": "Kontakt",
+      "url": "https://www.elektrolurch.net/contact/",
+      "external": true
+    },
     {
       "text": "RSS",
       "url": "/feed.xml",

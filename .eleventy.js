@@ -52,25 +52,30 @@ module.exports = function (eleventyConfig) {
       ? `<script src="${manifest['main.js']}"></script>`
       : '';
   });
+  
+  //~ // Filters 
+  //~ Object.keys(filters).forEach((filterName) => {
+	//~ eleventyConfig.addFilter(filterName, filters[filterName])
+  //~ })
+	/*** Ausschneiden der ersten 200 Zeichen eines Posts ***/
+	eleventyConfig.addFilter('excerpt', (post, excerptlength=200) => {
+		const content = post.replace(/(<([^>]+)>)/gi, '');
+		return content.substr(0, content.lastIndexOf(' ', excerptlength)) + '...';
+	});
 
-  eleventyConfig.addFilter('excerpt', (post) => {
-    const content = post.replace(/(<([^>]+)>)/gi, '');
-    return content.substr(0, content.lastIndexOf(' ', 200)) + '...';
-  });
+	/*** mittleres Datumsformat ***/
+	eleventyConfig.addFilter('readableDate', (dateObj, language='en') => {
+		return DateTime.fromJSDate(dateObj, { zone: 'utc', locale:language }).toFormat('dd LLL yyyy');
+	});
 
-  eleventyConfig.addFilter('readableDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-      'dd LLL yyyy'
-    );
-  });
+	/*** kurzes Datumsformat ***/
+	eleventyConfig.addFilter('htmlDateString', (dateObj, language='en') => {
+		return DateTime.fromJSDate(dateObj, { zone: 'utc', locale:language }).toFormat('yyyy-LL-dd');
+	});
 
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
-  });
-
-  eleventyConfig.addFilter('dateToIso', (dateString) => {
-    return new Date(dateString).toISOString()
-  });
+	eleventyConfig.addFilter('dateToIso', (dateString) => {
+		return new Date(dateString).toISOString()
+	});
 
   eleventyConfig.addFilter('head', (array, n) => {
     if (n < 0) {

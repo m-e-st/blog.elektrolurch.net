@@ -1,5 +1,20 @@
 :root {
   --accent: #0074d9;
   --background: #fffffe;
-  --color: rgb(41, 41, 41);
+	--mine-shaft-50:  #f7f7f7;
+	--mine-shaft-100: #e3e3e3;
+	--mine-shaft-200: #c8c8c8;
+	--mine-shaft-300: #a4a4a4;
+	--mine-shaft-400: #818181;
+	--mine-shaft-500: #666666;
+	--mine-shaft-600: #515151;
+	--mine-shaft-700: #434343;
+	--mine-shaft-800: #383838;
+	--mine-shaft-900: #292929;
+
+	--color:var(--mine-shaft-900);
+
+	--color-footer: var(--mine-shaft-400);
+
+
 }

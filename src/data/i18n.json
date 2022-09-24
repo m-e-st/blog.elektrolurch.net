@@ -1,0 +1,25 @@
+{
+	"language":"de",
+    "dateformat":"dd.MM.yyyy",
+    "about_title":"über den",
+	"recentposts":"Neueste Artikel",
+	"viewallposts":"Alle Artikel anzeigen",
+    "readingtime":"Lesezeit",
+    "readarticle":"Artikel lesen",
+
+    "en":{
+		"language":"en",
+        "dateformat":"yyyy-LLL-dd",
+        "about_title":"About ",
+        "recentposts":"Recent Posts",
+        "viewallposts":"View All Posts",
+		"readingtime":"read",
+		"readarticle":"read article",
+        "eos":""
+    },
+    
+    "de":{
+        "eos":""
+    },
+    "eos":""
+}
