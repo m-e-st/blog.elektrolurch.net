@@ -24,12 +24,15 @@
 
 .footer__attribution {
   font-size: var(--text-sm);
-  color: #666666;
+  color: var(--mine-shaft-400);
 }
 
 .footer__attribution a {
   text-decoration: none;
-  color: var(--color-footer);
+  color: var(--mine-shaft-700);
+}
+.footer__attribution a:hover {
+  color: var(--accent);
 }
 
 .footer ul {

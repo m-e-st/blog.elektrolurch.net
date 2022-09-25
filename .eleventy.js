@@ -23,6 +23,17 @@ const manifest = isDev
     }
   : JSON.parse(fs.readFileSync(manifestPath, { encoding: 'utf8' }));
 
+
+function obfuscateMail(mailAddress) {
+	if (typeof mailAddress === undefined) return '';
+	const btoa = function(str){ return Buffer.from(str).toString('base64'); }
+	//~ let binMail = btoa('mailto:' + mailAddress);
+	//~ let ascMail = mailAddress.replace(/[\u0000-\u9999<>\&]/g, function(c) {return '&#'+c.charCodeAt(0)+';';});
+	let binMail = btoa('mailto:' + mailAddress);
+	let ascMail = mailAddress;
+	return '<a href="javascript:alert(\'atob(' + binMail + ')\');">' + ascMail + '</a>';
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
@@ -52,11 +63,7 @@ module.exports = function (eleventyConfig) {
       ? `<script src="${manifest['main.js']}"></script>`
       : '';
   });
-  
-  //~ // Filters 
-  //~ Object.keys(filters).forEach((filterName) => {
-	//~ eleventyConfig.addFilter(filterName, filters[filterName])
-  //~ })
+
 	/*** Ausschneiden der ersten 200 Zeichen eines Posts ***/
 	eleventyConfig.addFilter('excerpt', (post, excerptlength=200) => {
 		const content = post.replace(/(<([^>]+)>)/gi, '');

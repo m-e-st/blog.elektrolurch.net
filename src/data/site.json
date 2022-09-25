@@ -12,7 +12,7 @@
     {
       "text": "Home",
       "url": "https://www.elektrolurch.net",
-      "external": true
+      "external": false
     },
     {
       "text": "Blog",
@@ -46,7 +46,7 @@
     {
       "text": "Kontakt",
       "url": "https://www.elektrolurch.net/contact/",
-      "external": true
+      "external": false
     },
     {
       "text": "RSS",
