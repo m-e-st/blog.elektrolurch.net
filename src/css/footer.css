@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+.footer a {
+	color: var(--color);
+}
+.footer a:hover {
+	color: var(--accent);
+}
+
 .footer__content {
   display: flex;
   flex-direction: column;
@@ -33,6 +40,7 @@
 }
 .footer__attribution a:hover {
   color: var(--accent);
+  text-decoration: underline;
 }
 
 .footer ul {

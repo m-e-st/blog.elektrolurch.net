@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: Yet another post with rich media
 date: '2020-12-28'
 tags: [demo-content, media]

@@ -67,17 +67,19 @@ hr {
 }
 
 a {
-  color: inherit;
   transition: all 200ms linear;
 /*
+  color: inherit;
   text-decoration: inherit;
   text-decoration: underline;
 */
+  color: var(--accent);
   text-decoration: none;
 }
 
 a:hover {
   color: var(--accent);
+  text-decoration: underline;
 }
 
 ol {

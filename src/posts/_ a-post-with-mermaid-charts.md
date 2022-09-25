@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: A post with mermaid charts
 description: Health goth raw denim vaporware waistcoat, vegan neutra glossier. Cronut chartreuse tbh meh schlitz. Snackwave lumbersexual pinterest narwhal.
 permalink: posts/{{ title | slug }}/index.html
