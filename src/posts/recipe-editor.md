@@ -1,12 +1,13 @@
 ---
 title: Rezept-Editor
-description: Editor zur Bearbeitung der Rezepte 'my-online-cookbook
+description: Editor zur Bearbeitung der Rezepte von 'my-online-cookbook'
 permalink: posts/{{ title | slug }}/index.html
 date: 2021-11-02
 tags:
-  - project
-  - www
+- project
+- www
 eleventyExcludeFromCollections: true
+
 ---
 ## Ziel
 
