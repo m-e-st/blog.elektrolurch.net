@@ -2,9 +2,11 @@
 title:  .htaccess
 description: .htaccess-Datei für Apache
 permalink: posts/{{ title | slug }}/index.html
-date: '2020-11-26'
+date: '2022-10-05'
 tags: [apache, html, web]
 ---
+
+Wichtige Befehle für die `.htaccess` Datei eines Apache Web Servers.
 
 ## Lokale Sperre für Webverzeichnisse
 

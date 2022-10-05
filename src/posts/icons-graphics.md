@@ -13,7 +13,7 @@ tags:
 
 - [flaticon][1] &rarr; PNG (frei)^und SVG (kostenpflichtig)
 - [heroicons][2] &rarr; SVG Icons können einzeln herunter geladen werden.
-- [clipartmax][2] &rarr; Millions of clipart image, unlimited download for free!
+- [clipartmax][3] &rarr; Millions of clipart image, unlimited download for free!
 
 [1]: <https://www.flaticon.com/free-icon> "Flat Icon"
 [2]: <https://heroicons.com/> "Hero Icons"

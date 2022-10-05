@@ -8,6 +8,8 @@ tags:
   - gnome
 ---
 
+Schnellstartleiste von Gnome unter Linux konfigurieren
+
 Quelle [Linktext](URL)
 
 ## Shell script 

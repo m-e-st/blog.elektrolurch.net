@@ -7,6 +7,7 @@ tags:
   - linux
 ---
 Übersicht über die (Pseudo)-Dateien im Linux-Standardverzeichnis **/proc**  
+
   - `/proc/cmdline` – Kernel command line information.
   - `/proc/consoles` – Information about current consoles including tty.
   - `/proc/devices` – Device drivers currently configured for the running kernel.
