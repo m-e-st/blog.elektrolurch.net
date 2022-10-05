@@ -1,8 +1,8 @@
 ---
-title: Tailwind CSS.
+title: Tailwind CSS
 description: Ressourcen, Nachschlageseiten und Tutorials zu Tailwind CSS.
 permalink: posts/{{ title | slug }}/index.html
-date: 2021-10-26
+date: 2022-10-04T22:00:00Z
 tags:
 - resource
 - html/css
