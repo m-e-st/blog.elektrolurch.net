@@ -30,7 +30,7 @@ CSS und Javascript Techniken.
 ### JavaScript
 
 - W3Schools [JS Reference][21]
-- [JQuery][31] **das** Framework
+- [JQuery][31] **das** [Framework][33] 
 - [PouchDB][32] lokale CouchDB Datenbank
 
 ### Templates
@@ -50,5 +50,6 @@ CSS und Javascript Techniken.
 
 [31]: <https://jquery.com/download/> ""
 [32]: <https://pouchdb.com/download.html> ""
+[33]; <https://jquery.com/>
 
 [41]: <https://speckyboy.com/free-responsive-html5-web-templates/> "50 Free Responsive HTML Web Templates for 2021"
