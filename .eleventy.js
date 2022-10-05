@@ -64,10 +64,31 @@ module.exports = function (eleventyConfig) {
       : '';
   });
 
-	/*** Ausschneiden der ersten 200 Zeichen eines Posts ***/
+	/*** Ausschneiden der ersten 200 Zeichen eines Posts oder 1. Paragraph ***/
 	eleventyConfig.addFilter('excerpt', (post, excerptlength=200) => {
+		const paralen = post.indexOf('</p>');
+		if ((paralen > 0) && (paralen < excerptlength)) return post.slice(0, paralen).replace(/(<([^>]+)>)/gi, '');
 		const content = post.replace(/(<([^>]+)>)/gi, '');
-		return content.substr(0, content.lastIndexOf(' ', excerptlength)) + '...';
+		return content.substr(0, content.lastIndexOf(' ', excerptlength)) + ' ...';
+		/*
+		if (paralen < 0) {
+			let content = post.replace(/(<([^>]+)>)/gi, ''); 
+			return content.substr(0, content.lastIndexOf(' ', excerptlength)) + X + ' ...';
+		} else {
+			return post.slice(0, paralen).replace(/(<([^>]+)>)/gi, '');
+		}
+		*/
+		//~ const content = ((paralen > 0) ? post.slice(0, paralen).replace(/(<([^>]+)>)/gi, '')
+									  //~ : post).replace(/(<([^>]+)>)/gi, '');
+		//~ const content = post.substr(0, post.lastIndexOf('</p>', excerptlength)).replace(/(<([^>]+)>)/gi, '');
+		//~ let X = 'p=' + paralen
+			//~ + '\ni=' + post.indexOf('</p>')
+			//~ + '\nc=' + content.length
+			//~ + '\nr=' + content.substr(0, content.lastIndexOf(' ', excerptlength)).length;
+		//~ const content = post.replace(/(<([^>]+)>)/gi, '');
+		//~ const delimpos = content.indexOf("<hr>");
+		//~ if (delimpos > 0) return content.slice(0, delimpos) + "hallo" + delimpos;
+		//~ return content.substr(0, content.lastIndexOf(' ', excerptlength)).slice(content.indexOf("---")) + '...';
 	});
 
 	/*** mittleres Datumsformat ***/

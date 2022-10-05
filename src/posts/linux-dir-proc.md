@@ -1,14 +1,12 @@
 ---
-title: Inhalt von /proc
+title: Verzeichnis /proc
 description: Linux-Verzeichnis /proc
 permalink: posts/{{ title | slug }}/index.html
 date: '2021-12-19'
 tags:
   - linux
 ---
-
-I will give you quick rundown on /proc’s files:
-
+Übersicht über die (Pseudo)-Dateien im Linux-Standardverzeichnis **/proc**  
   - `/proc/cmdline` – Kernel command line information.
   - `/proc/consoles` – Information about current consoles including tty.
   - `/proc/devices` – Device drivers currently configured for the running kernel.

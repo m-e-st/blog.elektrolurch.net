@@ -8,6 +8,12 @@ tags:
   - html/css
 ---
 
+Frameworks die einzuschließen sind 
+
+https://getbootstrap.com/docs/3.3/getting-started/#download
+https://jquery.com/download/
+https://pouchdb.com/download.html
+
 - W3School [CSS-Tutorial](https://www.w3schools.com/css/default.asp)
 - []()
 - []()
