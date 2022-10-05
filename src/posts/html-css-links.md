@@ -2,15 +2,15 @@
 title: HTML und CSS Anleitungen
 description: HTML und CSS Anleitungen.
 permalink: posts/{{ title | slug }}/index.html
-date: '2021-10-28'
+date: 2021-10-28
 tags:
-  - resource
-  - web
-  - html
-  - css
-  - javascript
----
+- resource
+- web
+- html
+- css
+- javascript
 
+---
 Dies ist eine Link-Sammlung zu Tutorials über die grundlegenden HTML,
 CSS und Javascript Techniken.
 
@@ -22,8 +22,9 @@ CSS und Javascript Techniken.
 
 ### CSS
 
-- W3Schools [CSS Reference][11] a
+- W3Schools [CSS Reference][11]
 - [Bootstrap 3][12] Fundamentals
+- [Bootstrap 3][14] Tutorial 
 - [Tailwind CSS Dokumentation][13]
 
 ### JavaScript
@@ -44,6 +45,7 @@ CSS und Javascript Techniken.
 [11]: <https://www.w3schools.com/css/default.asp>
 [12]: <https://getbootstrap.com/docs/3.3/css/> "Bootstrap 3 Fundamentals"
 [13]: <https://tailwindcss.com/docs> "Tailwind Dokumentation"
+[14]: <https://www.tutorialspoint.com/bootstrap/index.htm>
 [21]: <https://www.w3schools.com/jsref/default.asp>
 
 [31]: <https://jquery.com/download/> ""
