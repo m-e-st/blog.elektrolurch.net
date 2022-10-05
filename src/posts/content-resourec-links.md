@@ -8,7 +8,7 @@ tags:
 - html/css
 
 ---
-Dies ist eine Link1Sammlung auf Seiten, welche Inhalte (i.d.R. kostenlos) zur Verfügung stellen. 
+Dies ist eine Link-Sammlung auf Seiten, welche Inhalte (i.d.R. kostenlos) zur Verfügung stellen. 
 
 * 
 * Text Generator [Lorem Ipsum][1]
