@@ -16,7 +16,7 @@ Dies ist eine Link-Sammlung über Web-Entwicklung und dergleichen.
 - [Forestry][7] Headless CMS
 - [Eleventy][2] Static site generator
 - [Tailwind][3] CSS Framework 
-- [Github][11] Cloud Repository [](https://github.com/)
+- [Github][11] Cloud Repository
 
 
 

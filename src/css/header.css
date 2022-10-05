@@ -1,11 +1,14 @@
+/* header Styles for blog.elektrolurch.net */
+
 .header {
-  max-width: none;
-  width: 100%;
-/*
-  text-transform: capitalize;
-*/
-  text-transform: uppercase;
-  margin-bottom: 4rem;
+	max-width: none;
+	width: 100%;
+/*	text-transform: capitalize;*/
+	text-transform: uppercase;
+/*	margin-bottom: 4rem;*/
+	margin-bottom: 3rem;
+
+	background-image: linear-gradient(var(--amber-400), white);   
 }
 
 .header__content {
