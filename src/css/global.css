@@ -181,14 +181,22 @@ pre {
   margin-top: 1rem;
 }
 
-code,
-kbd {
-  font-feature-settings: normal;
-  background: color-mod(var(--accent) a(20%));
-  color: var(--accent);
+code {
+	font-feature-settings: normal;
+	background: color-mod(var(--accent) a(20%));
+	color: var(--accent);
 /*	padding: 1px 6px; */
   margin: 0 2px;
   font-size: 0.95rem;
+}
+
+kbd {
+	font-feature-settings: normal;
+/*	background: color-mod(var(--accent) a(20%)); */
+	color: var(--accent);
+	padding: 1px 6px;
+	margin: 0 2px;
+	font-size: 1.2rem;
 }
 
 pre {
