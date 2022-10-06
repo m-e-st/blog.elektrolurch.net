@@ -1,9 +1,12 @@
 .footer {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: none;
   width: 100%;
+  
+  	background-image: linear-gradient(white, var(--amber-400));   
+
 }
 
 .footer a {
@@ -26,7 +29,7 @@
 }
 
 .footer__content > * {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .footer__attribution {

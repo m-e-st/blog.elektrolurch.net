@@ -1,3 +1,4 @@
+/* ** blog.elektrolurch.net ** */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -122,6 +123,7 @@ th {
 
 th {
   font-weight: 500;
+  background:  var(--mine-shaft-200)
 }
 
 td:only-child {
@@ -130,13 +132,17 @@ td:only-child {
 
 * + h1,
 * + h2 {
-  margin-top: 5rem;
+/*	margin-top: 5rem;	*/
+	margin-top: 2rem;
+	margin-bottom: 0.2rem;
 }
 
 * + h3,
 * + h4,
 * + h5 {
-  margin-top: 3rem;
+/*	margin-top: 3rem;	*/
+	margin-top: 1rem;
+	margin-bottom: 0.1rem;
 }
 
 * + p {
@@ -177,11 +183,10 @@ pre {
 
 code,
 kbd {
-  color: var(--accent);
   font-feature-settings: normal;
   background: color-mod(var(--accent) a(20%));
   color: var(--accent);
-  padding: 1px 6px;
+/*	padding: 1px 6px; */
   margin: 0 2px;
   font-size: 0.95rem;
 }

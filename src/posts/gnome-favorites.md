@@ -1,7 +1,7 @@
 ---
 title: Gnome Schnellstartleiste konfigurieren
 description: Gnome Schnellstartleiste konfigurieren
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: '2022-04-04'
 tags:
   - linux

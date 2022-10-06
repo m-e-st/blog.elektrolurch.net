@@ -1,15 +1,17 @@
 ---
 title: Tailwind CSS
 description: Ressourcen, Nachschlageseiten und Tutorials zu Tailwind CSS.
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: 2022-10-04T22:00:00Z
 tags:
 - resource
-- html/css
+- css
 - jam
-
+- www
 ---
-Tailwind CSS ist ein CSS-Framework, welches Klassen enthält, die danach benannt sind, was sie tun. Man erspart sich dadurch eine Menge inline styles. Allerdings braucht man eine Präprozessor, der die unbenutzten Styles wegfiltert. 
+Tailwind CSS ist ein CSS-Framework, welches Klassen enthält, die danach benannt sind, 
+was sie tun. Man erspart sich dadurch eine Menge inline styles. 
+Allerdings braucht man eine Präprozessor, der die unbenutzten Styles wegfiltert. 
 
 ## Links
 

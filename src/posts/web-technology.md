@@ -1,11 +1,11 @@
 ---
 title: Web Technologien und Services
 description: Web Technologien und Services.
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: 2022-10-03
 tags:
   - services
-  - web
+  - www
 ---
 
 Dies ist eine Link-Sammlung über Web-Entwicklung und dergleichen.

@@ -1,13 +1,15 @@
 ---
-title: Unicode und Emoj-Zeichensätze.
+title: Zeichensätze.
 description: This is a post on My Blog about agile frameworks.
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: '2022-10-05'
 tags:
   - resource
-  - html
-  - web
+  - www
 ---
+
+Fileslug : {{ page.fileSlug }}
+Filestem : {{ page.filePathStem }}
 
 ## Links
 

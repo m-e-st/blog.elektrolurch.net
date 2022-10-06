@@ -1,11 +1,11 @@
 ---
 title: Static Site Generator
 description: Static Site Generator.
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: 2021-10-28
 tags:
-  - web
-  - html/css
+  - www
+
 ---
 
 - SSG Technologie [JAM stack](https://jamstack.org/)

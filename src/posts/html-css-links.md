@@ -1,11 +1,10 @@
 ---
 title: HTML und CSS Anleitungen
 description: HTML und CSS Anleitungen.
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: 2021-10-28
 tags:
-- resource
-- web
+- www
 - html
 - css
 - javascript

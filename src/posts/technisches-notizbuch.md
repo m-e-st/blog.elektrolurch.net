@@ -1,11 +1,11 @@
 ---
 title: Technisches Notizbuch.
 description: Beschreibung dieses Technisches-Notizbuch-Blog.
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: 2022-10-03
 tags:
   - doku
-  - demo-content
+  - demo
 ---
 Das Technische Notizbuch ist eine statische Webseite basiert auf [Eleventy-Duo][1].
 Das Notizbuch ist öffentlich und darf keine vertraulichen Informationen enthalten.
@@ -14,13 +14,14 @@ und wird bei [Netlify][3] gehostet.
 
 [1]: <https://github.com/yinkakun/eleventy-duo> "Eleventy Duo on Github"
 [2]: <https://github.com/yinkakun/eleventy-duo> "Eleventy Duo on Github"
-[3]: <https://github.com/yinkakun/eleventy-duo> "Eleventy Duo on Github"
-
+[3]: <https://www.netlify.com/> "Netlify Hosting"
 ---
+
+## TAG - Liste
 
 ## Beispiele zur Formatierung
  
-## CSS Code Formatierung
+### CSS Code Formatierung
 
 ```css
 .full-bleed {
@@ -32,19 +33,19 @@ und wird bei [Netlify][3] gehostet.
 
 ---
 
-## Image
+### Image
 
 ![Test Image](https://demo.ghost.io/content/images/2014/09/testimg1.jpeg)
 
 Low-hanging fruit design thinking loop back, race without a finish line. Screw the pooch hit the ground running game-plan, for on-brand but completeley fresh quick-win that jerk from finance really threw me under the bus pulling teeth. Level the playing field. Strategic high-level 30,000 ft view to be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders knowledge is power UX, nor can we take this offline, yet product management breakout fastworks. Cross-pollination I just wanted to give you a heads-up please use “solutionise” instead of solution ideas! 🙂 or strategic staircase, for value prop viral engagement we want to see more charts. Productize level the playing field great plan! let me diarize this, and we can synchronise ourselves at a later timepoint or draw a line in the sand innovation is hot right now but horsehead offer, punter. Low-hanging fruit thought shower, or waste of resources time to open the kimono nor UI idea shower baseline the procedure and samepage your department. Organic growth proceduralize. Player-coach. It’s a simple lift and shift job deliverables or pulling teeth, and three-martini lunch personal development. What’s the status on the deliverables for eow?. Cannibalize knowledge is power and staff engagement.
 
-## Video
+### Video
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yw6u6YkTgQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Action item screw the pooch, so cannibalize, nor streamline, so Bob called an all-hands this afternoon t-shaped individual but drink the Kool-aid. Productize diversify kpis so quick win to be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders bench mark, or customer centric, for critical mass. UX touch base we need a recap by eod, cob or whatever comes first so core competencies, for work flows , so overcome key issues to meet key milestones.
 
-## Audio
+## #Audio
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/422530128&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/louie-zong" title="Louie Zong" target="_blank" style="color: #cccccc; text-decoration: none;">Louie Zong</a> · <a href="https://soundcloud.com/louie-zong/hello-world" title="hello world" target="_blank" style="color: #cccccc; text-decoration: none;">hello world</a></div>
 

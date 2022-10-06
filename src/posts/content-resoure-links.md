@@ -1,10 +1,10 @@
 ---
 title: Content Ressoucen
 description: Sammlungen für Inhalte.
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 tags:
 - resource
-- web
+- www
 
 ---
 Dies ist eine Link-Sammlung  Seiten, welche Inhalte (i.d.R. kostenlos) zur Verfügung stellen. 

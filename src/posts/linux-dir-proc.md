@@ -1,7 +1,7 @@
 ---
 title: Verzeichnis /proc
 description: Linux-Verzeichnis /proc
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: '2021-12-19'
 tags:
   - linux

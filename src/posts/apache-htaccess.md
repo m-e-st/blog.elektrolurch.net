@@ -1,9 +1,11 @@
 ---
 title:  .htaccess
 description: .htaccess-Datei für Apache
-permalink: posts/{{ title | slug }}/index.html
+permalink: posts/{{ page.fileSlug | slug }}.html
 date: '2022-10-05'
-tags: [apache, html, web]
+tags: 
+ - apache
+ - www
 ---
 
 Wichtige Befehle für die `.htaccess` Datei eines Apache Web Servers.
@@ -12,19 +14,19 @@ Wichtige Befehle für die `.htaccess` Datei eines Apache Web Servers.
 
 Inhalt von .htaccess
 
-        order deny,allow
-        deny from all
-        allow from 172.16.1
+	order deny,allow
+	deny from all
+	allow from 172.16.1
 
 erlaubt den Zugriff nur aus dem lokalen Netzwerk.
 
 ## Password-Schutz
 
-        # .htaccess-Datei für Passwortschutz
-        AuthType Basic
-        AuthName "Geschützter Bereich - Bitte geben Sie ein Passwort ein!"
-        AuthUserFile /Individueller/Pfad/.htpasswd
-        Require valid-user
+	# .htaccess-Datei für Passwortschutz
+	AuthType Basic
+	AuthName "Geschützter Bereich - Bitte geben Sie ein Passwort ein!"
+	AuthUserFile /Individueller/Pfad/.htpasswd
+	Require valid-user
 
 `htpasswd -c -B .htusers username` für ersten Benutzer.<br>
 `htpasswd -B .htusers username`für weitere Benutzer.
