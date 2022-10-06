@@ -1,0 +1,14 @@
+--- 
+layout: base.njk 
+permalink: /meme/ 
+title: Meme
+---
+
+<h1>{{ i18n.allmemes }}</h1>
+
+<div class="tags">
+  {% include "tags-list.njk" %}
+</div>
+
+{% set postslist = collections.memes %}
+{% include "posts-list.njk" %}

@@ -20,6 +20,11 @@
       "external": false
     },
     {
+      "text": "Meme",
+      "url": "/meme",
+      "external": false
+    },
+    {
       "text": "Über",
       "url": "/about",
       "external": false
@@ -42,7 +47,7 @@
       "external": true
     }
   ],
-  "footerLinks": [
+  "DisabledfooterLinks": [
     {
       "text": "Kontakt",
       "url": "https://www.elektrolurch.net/contact/",

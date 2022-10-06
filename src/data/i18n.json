@@ -5,6 +5,9 @@
 	"allposts": "Alle Artikel",
 	"recentposts":"Neueste Artikel",
 	"viewallposts":"Alle Artikel anzeigen",
+	"allmemes": "Alle Meme",
+	"recentmemes":"Neueste Meme",
+	"viewallmemes":"Alle Meme anzeigen",
     "readingtime":"Lesezeit",
     "readarticle":"Artikel lesen",
 
@@ -12,9 +15,12 @@
 		"language":"en",
         "dateformat":"yyyy-LLL-dd",
         "about_title":"About ",
-        "recentposts":"Recent Posts",
         "allposts": "All Posts",
+        "recentposts":"Recent Posts",
         "viewallposts":"View All Posts",
+		"allmemes": "Alle Memes",
+		"recentmemes":"Recent Memes",
+		"viewallmemes":"View All Memes",
 		"readingtime":"read",
 		"readarticle":"read article",
         "eos":""

@@ -16,6 +16,7 @@ Dies ist eine Link-Sammlung  Seiten, welche Inhalte (i.d.R. kostenlos) zur Verf√
 - Cliparts [ClipArtMax][21]
 - Cliparts [flaticon][22]
 - Online Designer [Canva][31]
+- Free Sound Files at [WavSource.com][41]
 
 [1]: <https://loremipsum.de/> "Lorem Ipsum"
 
@@ -26,3 +27,4 @@ Dies ist eine Link-Sammlung  Seiten, welche Inhalte (i.d.R. kostenlos) zur Verf√
 [21]: <https://www.clipartmax.com/>
 [22]: <https://https://www.flaticon.com/icons>
 [31]: <https://www.canva.com/de_de/>
+[41]: <https://www.wavsource.com/>

@@ -1,6 +1,18 @@
-# Eleventy Duo
+# blog.elektrolurch.net
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
+- based on Eleventy Duo
+
+- Improvements
+    - Minor changes in CSS
+    - Moved hardcoded text to "i18n.json"
+    - renamed "archive.njk" to "blog.njk"
+    - added "meme.njk"
+
+
+
+---
+
+# Eleventy Duo
 
 ![demo site screenshot](./screenshot.png)
 
