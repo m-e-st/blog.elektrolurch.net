@@ -4,8 +4,8 @@ description: Löschen von Vaults in Amazon AWS Glacier
 permalink: posts/{{ page.fileSlug | slug }}.html
 date: '2022-04-04'
 tags:
-  - AWS
-  - Glacier
+  - aws
+  - glacier
 ---
 Das Löschen eines großen AWS-Glacier-Archivs mit der AWS CLI ist eine mühsame Angelegenheit.
 Für jede Datei muss einzeln die ID ermittelt werden und ein Löschbefehl abgesetzt werden.

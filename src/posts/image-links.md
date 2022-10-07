@@ -4,8 +4,8 @@ description: Links zu den Originalen von schicken Bildern
 permalink: posts/{{ page.fileSlug | slug }}.html
 date: 2022-10-06
 tags:
-- ressources
-- www
+- resource
+- images
 ---
 
 Links zu beliebten Bildern im Internet.

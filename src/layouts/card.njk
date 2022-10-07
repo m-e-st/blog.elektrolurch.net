@@ -28,7 +28,7 @@ layout: base.njk
       {% endfor %}
     </div>
     <nav class="post__pagination">
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+      {%- set nextPost = collections.memes | getNextCollectionItem(page) %}
       {%- if nextPost %}
 
         <a href="{{ nextPost.url | url }}">
@@ -42,7 +42,7 @@ layout: base.njk
 
       {% endif %}
 
-      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+      {%- set previousPost = collections.memes | getPreviousCollectionItem(page) %}
       {%- if previousPost %}
 
         <a href="{{ previousPost.url | url }}">

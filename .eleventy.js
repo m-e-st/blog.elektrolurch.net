@@ -93,7 +93,7 @@ module.exports = function (eleventyConfig) {
 
     return array.slice(0, n);
   });
-
+  
   eleventyConfig.addCollection('tagList', function (collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {
@@ -106,6 +106,7 @@ module.exports = function (eleventyConfig) {
             case 'nav':
             case 'post':
             case 'posts':
+            case 'memes':
               return false;
           }
 
@@ -122,7 +123,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('pageTags', (tags) => {
-    const generalTags = ['all', 'nav', 'post', 'posts'];
+    const generalTags = ['all', 'nav', 'post', 'posts', "memes"];
 
     return tags
       .toString()

@@ -5,7 +5,6 @@ permalink: posts/{{ page.fileSlug | slug }}.html
 date: '2022-10-04'
 tags:
   - resource
-  - html/css
   - images
 ---
 
