@@ -2,7 +2,6 @@
 title: HTML und CSS Anleitungen
 description: HTML und CSS Anleitungen.
 permalink: posts/{{ page.fileSlug | slug }}.html
-date: 2021-10-28
 tags:
 - www
 - html
@@ -18,6 +17,7 @@ CSS und Javascript Techniken.
 - W3Schools [HTML Reference][1]
 - tutorialspoint [HTML5 Tutorial][2]
 - SelfHTML [HTML5 Seitenstruktur][3]
+- HTML [Color Names][9] - [W3C Colors][10]
 
 ### CSS
 
@@ -40,6 +40,8 @@ CSS und Javascript Techniken.
 [1]: <https://www.w3schools.com/tags/default.asp> "W3School HTML Reference"
 [2]: <https://www.tutorialspoint.com/html5/index.htm> "HTML 5 Tutorial"
 [3]: <https://wiki.selfhtml.org/wiki/HTML/Tutorials/HTML5-Seitenstrukturierung> "SelfHTML HTML5 Seitenstruktur"
+[9]: <https://www.computerhope.com/htmcolor.htm>
+[10]: <https://www.computerhope.com/jargon/w/w3c-color-names.htm>
 
 [11]: <https://www.w3schools.com/css/default.asp>
 [12]: <https://getbootstrap.com/docs/3.3/css/> "Bootstrap 3 Fundamentals"

@@ -1,0 +1,4 @@
+{% for tag in collections.memeList %}
+	{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+	<a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a>
+{% endfor %}

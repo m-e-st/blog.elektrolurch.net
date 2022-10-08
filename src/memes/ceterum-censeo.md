@@ -19,4 +19,5 @@ dass Wiederholungen mächtiger sind als jede Wahrheit,
 solange man sie nur beharrlich äußert. 
 Es ist das Prinzip der urbanen Legenden: 
 Man muss den Leuten die Verschwörungstheorie nur oft genug einbläuen, 
-dann glauben sie irgendwann dran.
+dann glauben sie irgendwann dran.  
+<small>Quelle: [Wirtschaftswoche 10.07.2011](https://www.wiwo.de/erfolg/trends/wiederholungs-effekt-warum-wir-einer-aussage-umso-eher-glauben-je-oefter-wir-sie-hoeren/5302226.html)</small>

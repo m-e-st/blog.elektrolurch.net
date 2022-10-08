@@ -122,6 +122,35 @@ module.exports = function (eleventyConfig) {
     return [...tagSet];
   });
 
+  eleventyConfig.addCollection('memeTags', function (collection) {
+    let tagSet = new Set();
+			console.log("Meme", collection);
+    collection.getAll().forEach(function (item) {
+      if ('tags' in item.data) {
+        let tags = item.data.tags;
+        tags = tags.filter(function (item) {
+          switch (item) {
+            case 'all':
+            case 'nav':
+            case 'post':
+            case 'posts':
+            case 'memes':
+              return false;
+          }
+
+          return true;
+        });
+
+        for (const tag of tags) {
+			console.log("Tag", tag);
+          //~ tagSet.add(tag);
+        }
+      }
+    });
+
+    return [...tagSet];
+  });
+
   eleventyConfig.addFilter('pageTags', (tags) => {
     const generalTags = ['all', 'nav', 'post', 'posts', "memes"];
 
