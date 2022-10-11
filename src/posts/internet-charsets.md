@@ -2,7 +2,6 @@
 title: Zeichensätze.
 description: Informationen zu Zeichensätzen
 permalink: posts/{{ page.fileSlug | slug }}.html
-date: '2022-10-07'
 tags:
   - resource
   - www
@@ -23,6 +22,15 @@ Diverse Informationen zu Zeichensätzen.
 | %5d |  ]  | %5e | ^   | %5f |  _  | %60 |  `  | %7b |  {  |
 | %7c |&verbar;|%7d| }  | %7e |  ~  |     |     |     |     | 
 
+### Wichtige HTML Entities
+
+| Zeichen | Entity       | Unicode | ASCII | UTF-8     |   |
+| :-----: | :----------- | :-----: | :---: | :-------- |:-:|
+| &amp;   | &amp;amp;    | U+0026  | 38    | 0x26      | [&lowast;](https://www.compart.com/de/unicode/U+0026)
+| &lt;    | &amp;lt;     | U+003C  | 60    | 0x3C      | [&lowast;](https://www.compart.com/de/unicode/U+003C)
+| &gt;    | &amp;gt;     | U+003E  | 62    | 0x3E      | [&lowast;](https://www.compart.com/de/unicode/U+003E)
+| &laquo; | &amp;laquo;  | U+00AB  | 171   | 0xC2 0xAB | [&lowast;](https://www.compart.com/de/unicode/U+00AB)
+| &raquo; | &amp;raquo;  | U+00BB  | 187   | 0xC2 0xBB | [&lowast;](https://www.compart.com/de/unicode/U+00BB)
 
 ### Links
 

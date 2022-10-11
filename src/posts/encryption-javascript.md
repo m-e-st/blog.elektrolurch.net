@@ -1,8 +1,9 @@
 ---
 title: Verschlüsseln mit Javascript
 permalink: posts/{{ page.fileSlug | slug }}.html
-tags
-- javascript
+tags:
+ - javascript
+ - www
 ---
 
 ## SJCL - Stanford Javascript Crypto Library
@@ -36,7 +37,6 @@ function decrypt(keyedtext) {
 ### Lizenz:
 >SJCL is open. You can use, modify and redistribute it under a BSD license or under the GNU GPL, version 2.0 or higher.
 
-sjcl.min.js AES encryption library from https://bitwiseshiftleft.github.io/sjcl/
 
 ## Alternativen
 
