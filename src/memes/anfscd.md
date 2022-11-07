@@ -4,7 +4,7 @@ description: And Now for Something Completely Different
 permalink: memes/{{ page.fileSlug | slug }}.html
 date: 2022-10-06
 image: anfscd.jpg
-laxout: meme.njk
+layout: card.njk
 tags: 
  - meme
  - chat

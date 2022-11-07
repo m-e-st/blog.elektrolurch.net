@@ -124,7 +124,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection('memeTags', function (collection) {
     let tagSet = new Set();
-			console.log("Meme", collection);
+			//~ console.log("Meme", collection);
     collection.getAll().forEach(function (item) {
       if ('tags' in item.data) {
         let tags = item.data.tags;
@@ -142,7 +142,7 @@ module.exports = function (eleventyConfig) {
         });
 
         for (const tag of tags) {
-			console.log("Tag", tag);
+			//~ console.log("Tag", tag);
           //~ tagSet.add(tag);
         }
       }
