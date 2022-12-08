@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/712d4042-f06e-4c48-969f-f485b1438b6c/deploy-status)](https://app.netlify.com/sites/blog-elektrolurch-net/deploys)
+
 # blog.elektrolurch.net
 
 - based on Eleventy Duo
