@@ -6,7 +6,6 @@ date: 2022-10-06
 image: anfscd.jpg
 layout: card.njk
 tags: 
- - meme
  - chat
 ---
 **&laquo;And Now for Something Completely Different&raquo;**

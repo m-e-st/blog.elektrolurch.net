@@ -3,16 +3,15 @@ layout: home
 title: 'Home'
 ---
 
-# Technisches Notizbuch
+# Elektrolurch's Blog
 
-Das Technische Notizbuch sammelt alle Fundstellen zu den verschiedenen
-IT-Themen an einer Stelle. Es ist eine Kladde, für Dinge, welche man
-laufend nachschaut und immer wieder vergißt. Daher ist es weder umfangreich
-noch vollständig, sondern bleibt eine krude Sammlung interessanter Inhalte.
+[Der](https://deutsch.heute-lernen.de/grammatik/der-die-das/blog) Blog des Elektrolurchs 
+sammelt Fundstellen über Technik und daneben Memes bzw. deren Abkürzung und ihre Bedeutung.
+Es ist eine Kladde, für Dinge, welche man laufend nachschaut und immer wieder vergißt. 
+Daher ist es weder umfangreich noch vollständig, sondern bleibt eine wachselnde Ansammlung interessanter Inhalte.
 
 
-
-Das Technische Notizbuch basiert selbst ist mit dem [JAMstack][1]-Generator
+Der Blog basiert selbst ist mit dem [JAMstack][1]-Generator
 [eleventy][2] entwickelt und basiert auf der Vorlage [Eleventy-Duo][3].
 
 [1]: <https://jamstack.org/> "What is Jamstack?"

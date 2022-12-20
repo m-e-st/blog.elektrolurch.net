@@ -5,7 +5,6 @@ permalink: memes/{{ page.fileSlug | slug }}.html
 image: keyboard.png
 layout: card.njk
 tags: 
- - meme
  - chat
 ---
 **afk** steht für &laquo;**A**way **F**rom **K**eyboard&raquo;

@@ -2,6 +2,7 @@
   "name": "Elektrolurch Blog",
   "description": "Elektrolurch's personal blogs.",
   "url": "https://blog.elektrolurch.net",
+  "home": "https://web.elektrolurch.net",
   "author": {
     "name": "John Doe",
     "email": "author@site.com",
@@ -11,7 +12,7 @@
   "headerLinks": [
     {
       "text": "Home",
-      "url": "https://www.elektrolurch.net",
+      "url": "/",
       "external": false
     },
     {

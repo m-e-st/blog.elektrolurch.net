@@ -5,7 +5,7 @@ permalink: memes/{{ page.fileSlug | slug }}.html
 image: imho.png
 layout: card.njk
 tags: 
- - meme
+ - mail
  - chat
 ---
 **IMHO** steht für &laquo;**I**n **M**y **H**umble **O**pinion&raquo;

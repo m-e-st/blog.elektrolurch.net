@@ -6,7 +6,7 @@ date: 2022-10-06
 image: btw.jpg
 layout: card.njk
 tags: 
- - meme
+ - mail
  - chat
 ---
 {{description}} coming soon ...

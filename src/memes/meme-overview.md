@@ -1,10 +1,8 @@
 ---
-title: Übersicht Meme
-description: Übersicht.
+title: Definition Meme
+description: Definition.
 permalink: memes/{{ page.fileSlug | slug }}.html
-tags:
-  - overview
-eleventyExcludeFromCollections: true
+
 ---
 
 [μίμημα](https://de.wikipedia.org/wiki/Mem) -  Diverse Meme und 

@@ -6,7 +6,6 @@ date: 2022-10-06
 image: palmface.png
 layout: card.njk
 tags: 
- - meme
  - chat
 ---
 **omg** steht für &laquo;**O**h **M**y **G**od&raquo;

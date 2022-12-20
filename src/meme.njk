@@ -3,12 +3,22 @@ layout: base.njk
 permalink: /meme/ 
 title: Meme
 ---
-
+<style>
+table,tr,td { border-style:none; }
+td { padding: 1px; padding-right: 8px;}
+</style>
 <h1>{{ i18n.allmemes }}</h1>
+
+<table  style="border-style:none">
+{% for meme in collections.memes | sort(false, false, "data.title") %}
+	<tr>
+		<td><a href="{{ site.url }}{{ meme.url }}">{{ meme.data.title }}</a></td>
+		<td>{{ site.url }}{{ meme.url }}</td>
+	</tr>
+{% endfor %}
+</table>
 
 <div class="tags">
   {% include "meme-list.njk" %}
 </div>
 
-{% set postslist = collections.memes %}
-{% include "posts-list.njk" %}

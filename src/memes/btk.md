@@ -5,7 +5,6 @@ permalink: memes/{{ page.fileSlug | slug }}.html
 image: keyboard.png
 layout: card.njk
 tags: 
- - meme
  - chat
 ---
 **btk**, manchmal auch **b2k** steht für &laquo;**B**ack **T**o **K**eyboard&raquo;
