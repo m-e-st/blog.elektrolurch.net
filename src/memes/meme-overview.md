@@ -18,6 +18,6 @@ zitierfähige Links zu den Beschreibungen. Dazu zählen auch &hellip;
 
 <ul>
 {% for meme in collections.memes | sort(false, false, "data.title") %}
-<li><a href="{{ meme.url | url }}">{{ meme.data.title }}</a> &rArr; <code>{{ meme.data.description }}</code></li>
+<li><a href="{{ meme.url | url }}">{{ meme.data.title }}</a> &rArr; <code>{{ meme.data.description | title }}</code></li>
 {% endfor %}
 </ul>
