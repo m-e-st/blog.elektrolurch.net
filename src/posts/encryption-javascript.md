@@ -1,6 +1,5 @@
 ---
 title: Verschlüsseln mit Javascript
-permalink: posts/{{ page.fileSlug | slug }}.html
 tags:
  - javascript
  - www

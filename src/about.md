@@ -16,7 +16,7 @@ In den sechziger Jahren des vorigen Jahrhundert gab es eine deutsche
 Rockband mit dem Namen [Guru Guru](http://www.guru-guru.com/).
 Weitere Details zur Band kann man bei [Wikipedia](https://de.wikipedia.org/wiki/Guru_Guru) nachlesen.
 
-Das Stück Elektrolurch der Band enthält die oben zitierte Textpassage, 
+Das Stück «Der Elektrolurch» der Band enthält die oben zitierte Textpassage, 
 welche Pate für den Webseiten-Namen stand. Im nachfolgendem Videoclip
 von Guru Guru ist der Text ab Position 05:18 zu hören.
 <iframe

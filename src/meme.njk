@@ -7,7 +7,16 @@ title: Meme
 table,tr,td { border-style:none; }
 td { padding: 1px; padding-right: 8px;}
 </style>
-<h1>{{ i18n.allmemes }}</h1>
+<div class="tags">
+<hr>
+{% for tag in collections.memes | sort(false, false, "data.title") %}
+  <a href="{{ tag.url | url }}" class="post-tag">#{{ tag.data.title | d('huch') }}</a>
+{% endfor %}
+<hr>
+</div>
+
+<a href="/memes/meme-overview.html"><h1>{{ i18n.allmemes }}</h1></a>
+
 
 <table  style="border-style:none">
 {% for meme in collections.memes | sort(false, false, "data.title") %}
@@ -17,8 +26,4 @@ td { padding: 1px; padding-right: 8px;}
 	</tr>
 {% endfor %}
 </table>
-
-<div class="tags">
-  {% include "meme-list.njk" %}
-</div>
 
